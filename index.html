@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/logo.svg" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
@@ -24,7 +25,7 @@
             </div>
         </a>
             <ul class="mainMenu">
-                <li><a href="#">Upcoming Show</a></li>
+                <li><a href="#"> <span class="play"><img src="./images/play.svg" alt=""></span> Upcoming Show</a></li>
                 <li><a href="#">Media</a></li>
                 <li><a href="#">SONGS</a></li>
                 <li><a href="#">merchandise</a></li>
@@ -54,9 +55,12 @@
                 <img src="./images/marshmello.jpg" alt="marshmello logo">
             </div>
             <div class="titleContainer__right">
-                <div class="circle">
-                    <img src="./images/triangulo.svg" alt="">
-                </div>
+                <span class="playSong">Play Songs</span>
+                <a href="https://www.youtube.com/watch?v=ALZHF5UqnU4" target="_blank">
+                    <div class="circle">
+                        <img src="./images/triangulo.svg" alt="">
+                    </div>
+                </a>
             </div>
         </div>
         <div class="textContainer">
@@ -69,18 +73,30 @@
             </h3>
             <p>Find out about the hottest underground parties & festivals at The DJ List. Let the music take you away…</p>
         </div>
-        <div class="mediaContainer">
-            <img src="./images/facebook.svg" alt="facebook logo">
-            <img src="./images/instagram.svg" alt="instagram logo">
-            <img src="./images/twitter.svg" alt="twitter logo">
-            <img src="./images/youtube.svg" alt="youtube logo">
-        </div>
-        <div class="buttonsContainer">
-            <button class="btn btn-left">Get tickets</button>
-            <button class="btn btn-right">More</button>
+        <div class="containerActions">
+            <div class="mediaContainer">
+                <img src="./images/facebook.svg" alt="facebook logo">
+                <span class="social-text">Facebook</span>
+                <img src="./images/instagram.svg" alt="instagram logo">
+                <span class="social-text">Instagram</span>
+                <img src="./images/twitter.svg" alt="twitter logo">
+                <span class="social-text">Twitter</span>
+                <img src="./images/youtube.svg" alt="youtube logo">
+                <span class="social-text">Youtube</span>
+            </div>
+            <div class="buttonsContainer">
+                <button class="btn btn-left">Get tickets</button>
+                <button class="btn btn-right">More</button>
+            </div>
         </div>
     </section>
     <!-- ---------END MAIN INFO------------- -->
+    
+    <!-- ---------Footer------------- -->
+    <footer class="footer">
+        <span>Design for Neelesh Chaudhary / implemented by Omar Dario Melendrez</span>
+    </footer>
+    <!-- ---------END Footer------------- -->
 
     <script src="./js/main.js"></script>
     </body>
