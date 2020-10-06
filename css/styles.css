@@ -229,6 +229,7 @@ nav .mainMenu .closeMenu,
 .footer {
 	width: 100%;
 	background-color: rgb(168, 167, 167);
+	color: #fff;
 	text-align: center;
 	padding: 10px;
 }
